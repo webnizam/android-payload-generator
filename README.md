@@ -16,6 +16,10 @@ sudo apt-get install qttools5-dev-tools
 pip install -r requirements.txt
 ```
 
+Run by
+
+> python3 qt_payload_gen.py
+
 ### Plugins
 
 Payload generator is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
