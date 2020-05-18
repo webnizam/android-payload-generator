@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>596</width>
-    <height>387</height>
+    <height>376</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -82,6 +82,12 @@
         <property name="inputMethodHints">
          <set>Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText</set>
         </property>
+        <property name="tabChangesFocus">
+         <bool>true</bool>
+        </property>
+        <property name="lineWrapMode">
+         <enum>QTextEdit::NoWrap</enum>
+        </property>
         <property name="acceptRichText">
          <bool>false</bool>
         </property>
@@ -117,6 +123,12 @@
         <property name="inputMethodHints">
          <set>Qt::ImhDigitsOnly</set>
         </property>
+        <property name="tabChangesFocus">
+         <bool>true</bool>
+        </property>
+        <property name="lineWrapMode">
+         <enum>QTextEdit::NoWrap</enum>
+        </property>
        </widget>
       </item>
       <item>
@@ -140,6 +152,12 @@
           <height>30</height>
          </size>
         </property>
+        <property name="tabletTracking">
+         <bool>true</bool>
+        </property>
+        <property name="lineWrapMode">
+         <enum>QTextEdit::NoWrap</enum>
+        </property>
        </widget>
       </item>
       <item>
@@ -161,11 +179,40 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QPushButton" name="btnListen">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Listen</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>596</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
