@@ -1,6 +1,6 @@
 # Android Payload Generator
 
-This tool helps to generate android payload with the help of QT5.
+This tool helps to generate android payload with the help of QT5. It has a cool and simple graphical user interface which will make generating payload and listening for reverse shell easier.
 
 # Installation
 
