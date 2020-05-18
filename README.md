@@ -24,7 +24,7 @@ Run by
 
 Payload generator is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
-| Plugin | README |
+| Plugin | Url |
 | ------ | ------ |
-| msfvenom | [https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom]|
-| qt5 | [https://doc.qt.io/qtforpython/]|
+| MSFVenom | https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom |
+| qt5 | https://doc.qt.io/qtforpython/ |
