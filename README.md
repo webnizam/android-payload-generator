@@ -2,6 +2,8 @@
 
 This tool helps to generate android payload with the help of QT5. It has a cool and simple graphical user interface which will make generating payload and listening for reverse shell easier.
 
+![alt text](https://user-images.githubusercontent.com/14030703/82382793-ae873300-9a3d-11ea-8088-0dfec7ed9ae8.png)
+
 # Installation
 
 Payload Generator requires [Qt5](https://doc.qt.io/qtforpython/) to run.
